@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <weizexu.baway.com.weizexu20170825.MyView
+        app:qb="全部"
+        app:qz="圈子"
+        app:tp="图片"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </weizexu.baway.com.weizexu20170825.MyView>
+    <me.maxwin.view.XListView
+        android:id="@+id/xlist"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </me.maxwin.view.XListView>
+</LinearLayout>

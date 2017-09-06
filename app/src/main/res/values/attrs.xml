@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyView">
+        <attr name="qb" format="string"/>
+        <attr name="qz" format="string"/>
+        <attr name="tp" format="string"/>
+        </declare-styleable>
+</resources>
